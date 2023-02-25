@@ -1,38 +1,38 @@
 {
-  "expo": {
-    "name": "Darcy",
-    "slug": "darcy",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#191B22"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.darcyinc.darcy"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#191B22"
-      },
-      "package": "com.darcyinc.darcy"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "128aade9-3b75-4dbd-bf85-8c222eb27cff"
-      }
-    },
-    "owner": "darcyinc"
-  }
+	"expo": {
+		"name": "Darcy",
+		"slug": "darcy",
+		"version": "1.0.0",
+		"scheme": "darcy",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#191B22"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.darcyinc.darcy"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#191B22"
+			},
+			"package": "com.darcyinc.darcy"
+		},
+		"web": {
+			"favicon": "./assets/favicon.png",
+			"bundler": "metro"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "128aade9-3b75-4dbd-bf85-8c222eb27cff"
+			}
+		},
+		"owner": "darcyinc"
+	}
 }
