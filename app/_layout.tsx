@@ -7,6 +7,7 @@ import {
 } from "@expo-google-fonts/inter";
 import { Slot } from "expo-router";
 import { StatusBar, View } from "react-native";
+import { Header } from "../src/components/Header/Header";
 import { Loading } from "../src/components/Loading";
 
 export const unstable_settings = {
@@ -28,6 +29,7 @@ export default function RootLayout() {
 	return (
 		<>
 			<View className="flex-1 bg-background">
+				<Header />
 				<Slot />
 			</View>
 			<StatusBar
